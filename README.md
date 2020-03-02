@@ -16,7 +16,7 @@ Web Phishing tool which works perfectly in mobile and desktop.
 
 #IG: https://instgram.com/prateek_chaubey
 
-# SCREENSHOT (Android-Userland)
+# SCREENSHOT
 ![Shot](https://github.com/prateek-chaubey/omegapc/blob/master/img.png)
 
 
