@@ -1,4 +1,4 @@
-# OMEGA-PC v0.2.0
+# OMEGA v0.2.0
 # Author: github.com/prateek-chaubey
 # IG: instagram.com/prateek_chaubey
 # Don't copy this code without giving me the credits, nerd! 
@@ -15,9 +15,9 @@
           ~~~~~~~~~~~~~~~~~~
 
 <pre>
-___   _  _   ___   ___  __    <kbd>  ___  ___  </kbd>
-|\_|/ |\/|   !__  | _  √__\  __<kbd> |__| |    </kbd>
-|__|  |  |_  !__  |__] |  |    <kbd> |    |__    </kbd>
+___   _  _   ___   ___  __  ___  ___  
+|\_|/ |\/|   !__  | _  √__\ |__| |    
+|__|  |  |_  !__  |__] |  | |    |__    
 
 
 </pre>
