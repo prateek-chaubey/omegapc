@@ -21,7 +21,7 @@ Web Phishing tool which works perfectly in mobile and desktop.
 
 
 ## CREDIT:-
-HiddenEye - For Their Webpages 
+HiddenEye - For Their Resources
 
 
 # FOUND A BUG ? / HAVE ANY ISSUE ? :- (Read This)
